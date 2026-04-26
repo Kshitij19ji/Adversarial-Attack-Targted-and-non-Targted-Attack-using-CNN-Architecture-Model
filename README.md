@@ -41,6 +41,8 @@ Finds a single image-agnostic perturbation that, when added to ANY image from a 
 The attacks are primarily demonstrated on:
 - **VGG19**: Modified with a custom fully connected layer to fit the specific dataset (e.g., 990 classes).
 - **ResNet50**: Used as a victim model for robustness testing.
+- **MobileNetV2**: A lightweight architecture optimized for mobile and edge devices.
+- **EfficientNet**: A scalable architecture that achieves state-of-the-art accuracy with significantly fewer parameters.
 
 The models are typically loaded with pre-trained weights or custom state dicts, and put into `.eval()` mode to ensure deterministic behavior during attack generation.
 
@@ -110,7 +112,7 @@ graph TD
 
 ---
 
-## 📊 Results & Visualization
+## �📊 Results & Visualization
 
 The scripts provide a success rate for each attack and generate comparative plots.
 
