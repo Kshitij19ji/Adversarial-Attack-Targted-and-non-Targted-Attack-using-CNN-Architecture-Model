@@ -82,7 +82,7 @@ You can adjust the following parameters within the scripts:
 
 ---
 
-## � Project Workflow
+## Project Workflow
 
 The following diagram illustrates the typical research and execution workflow within this repository:
 
